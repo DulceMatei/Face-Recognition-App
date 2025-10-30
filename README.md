@@ -62,3 +62,9 @@ The application uses the AT&T (ORL) Face Database, containing:
 - 10 grayscale images per person
 - Resolution: 112x92 pixels
 - Format: `.pgm`
+
+---
+
+## 🧠 Algorithms
+
+### 1. Nearest Neighbor (NN)
