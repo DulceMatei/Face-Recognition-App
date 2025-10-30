@@ -78,3 +78,16 @@ Finds the closest training image to the input face using selected distance metri
 **Performance**
 
 ![NN Performance](images/nn_performance.png)
+
+### 2. k-Nearest Neighbors (k-NN)
+
+Considers the k closest images and classifies by majority voting.
+Supports Manhattan, Euclidean, Infinity, and Cosine norms.
+
+**Interface:**
+
+![K-NN Interface](images/knn_interface.png)
+
+**Performance**
+
+![K-NN Performance](images/knn_performance.png)
