@@ -91,3 +91,54 @@ Supports Manhattan, Euclidean, Infinity, and Cosine norms.
 **Performance**
 
 ![K-NN Performance](images/knn_performance.png)
+
+### 3. Eigenfaces
+
+Uses Principal Component Analysis (PCA) to reduce dimensionality and represent faces in eigenspace.
+Then applies NN or k-NN for classification.
+
+**Interface:**
+
+![Eigenfaces Interface](images/eigenfaces_interface.png)
+
+**Performance**
+
+![eigenfaces Performance](images/eigenfaces_performance.png)
+
+### 4. Class Representatives
+
+Each class (person) has its own mean and eigenspace representation.
+The test image is projected into each class and classified by the smallest distance.
+
+**Interface:**
+
+![class_representatives Interface](images/class_representatives_interface.png)
+
+**Performance**
+
+![class_representatives Performance](images/class_representatives_performance.png)
+
+### 5. Lanczos Algorithm
+
+Improves eigenface computation efficiency using the Lanczos iteration method for finding dominant eigenvectors.
+
+**Interface:**
+
+![Lanczos Interface](images/Lanczos_interface.png)
+
+**Performance**
+
+![Lanczos Performance](images/Lanczos_performance.png)
+
+## 📊 Results & Statistics
+
+The system supports testing on multiple dataset configurations (e.g., 60%, 80% training splits).
+Performance varies with:
+- Algorithm type
+- Distance metric
+- Number of training images per class
+
+## 📝 Conclusion
+
+This project demonstrates how various face recognition algorithms can be compared and optimized in terms of accuracy and speed.
+It provides an educational and practical framework for understanding pattern recognition, dimensionality reduction, and statistical classification through an intuitive graphical interface.
