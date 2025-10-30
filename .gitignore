@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+.env
+venv/
+.idea/
+.vscode/
+*.log
+*.bak
+*.tmp
+*.zip
+*.rar
+*.7z
+dataset/att_faces/*
+!dataset/att_faces/README.txt
