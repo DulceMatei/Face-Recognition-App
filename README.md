@@ -47,8 +47,8 @@ Install all dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
-The requirements.txt file should include: PyQt6
-opencv-python
-numpy
-matplotlib
-scipy
+The requirements.txt file should include: PyQt6,
+opencv-python,
+numpy,
+matplotlib,
+scipy,
