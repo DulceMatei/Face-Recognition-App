@@ -68,3 +68,13 @@ The application uses the AT&T (ORL) Face Database, containing:
 ## 🧠 Algorithms
 
 ### 1. Nearest Neighbor (NN)
+
+Finds the closest training image to the input face using selected distance metrics.
+
+**Interface:**
+
+![NN Interface](images/nn_interface.png)
+
+**Performance**
+
+![NN Performance](images/nn_performance.png)
