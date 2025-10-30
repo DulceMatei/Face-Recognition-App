@@ -51,4 +51,14 @@ The requirements.txt file should include: PyQt6,
 opencv-python,
 numpy,
 matplotlib,
-scipy,
+scipy
+
+---
+
+## 📁 Dataset
+
+The application uses the AT&T (ORL) Face Database, containing:
+- 40 subjects
+- 10 grayscale images per person
+- Resolution: 112x92 pixels
+- Format: `.pgm`
