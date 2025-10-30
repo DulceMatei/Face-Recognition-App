@@ -124,11 +124,11 @@ Improves eigenface computation efficiency using the Lanczos iteration method for
 
 **Interface:**
 
-![Lanczos Interface](images/Lanczos_interface.png)
+![Lanczos Interface](images/lanczos_interface.png)
 
 **Performance**
 
-![Lanczos Performance](images/Lanczos_performance.png)
+![Lanczos Performance](images/lanczos_performance.png)
 
 ## 📊 Results & Statistics
 
